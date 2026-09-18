@@ -221,13 +221,13 @@
 
   /* inner white of black frame on 1078x1600, scaled by S */
   const PHOTO = { cx: 531.5*S, cy: 704*S, w: 451*S, h: 480*S, radius: 20*S };
-  const SUB   = { x: 539*S, y: 128*S, maxW: 520*S };
+  const SUB   = { x: 539*S, y: 112*S, maxW: 520*S };
   const TEXT_X = 539*S;
   const TEXT_MAX = 880*S;
   const LINES = [
-    { key:'name',   prefix:'Name: ',           y: 1006*S, sizeId:'nameSize',   def:95 },
-    { key:'fair',   prefix:'Fair: ',           y: 1074*S, sizeId:'fairSize',   def:80 },
-    { key:'cat',    prefix:'Category: ',       y: 1142*S, sizeId:'catSize',    def:80 },
+    { key:'name',   prefix:'',                 y: 1006*S, sizeId:'nameSize',   def:95 },
+    { key:'fair',   prefix:'Fair: ',           y: 1074*S, sizeId:'fairSize',   def:85 },
+    { key:'cat',    prefix:'Category: ',       y: 1142*S, sizeId:'catSize',    def:85 },
     { key:'item',   prefix:'Item: ',           y: 1210*S, sizeId:'itemSize',   def:80 },
     { key:'result', prefix:'Result/Grade : ',  y: 1278*S, sizeId:'resultSize', def:80 },
     { key:'school', prefix:'School: ',         y: 1346*S, sizeId:'schoolSize', def:80 }
